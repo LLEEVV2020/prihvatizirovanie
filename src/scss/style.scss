@@ -110,3 +110,41 @@ main .container{
     justify-content: space-between;
     align-items: center;
 }
+
+.btn{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.mr-2 {
+    margin-right: 0.5rem!important;
+}
+.wrapper-search--width{
+    max-width: inherit;
+}
+.wrapper-search--width .form-control{
+    border: 0 solid #ced4da;
+    border-bottom-width: 2px;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.container-wrapper{
+    margin-top: 20px;
+}
+
+.container-wrapper  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-wrapper  .btn{
+    font-size: 12px;
+    line-height: 1;
+}
+
+.container-wrapper li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
