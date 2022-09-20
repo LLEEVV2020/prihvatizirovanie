@@ -104,3 +104,9 @@ main .container{
 .control-panel .btn-group{
     background-color: #F4F5F7;
 }
+.control-panel .btn-group .btn{
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
