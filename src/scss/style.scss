@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    color: #fff;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,4 +11,96 @@ body{
     /*background-color: #191C2B;*/
     align-items: center;
     justify-content: center;
+}
+
+/*custom*/
+.nav-link.active::before{
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    right: 4px;
+    content: "";
+    height: 3px;
+    background-color: var(--ds-iconBorder-brand,#0052CC);
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.nav-link{
+    position: relative;
+}
+.navbar {
+    width: 100%;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+button{
+    border: none;
+    background: none;
+}
+.css-size span{
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-size: cover;
+}
+
+.css-search{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 7px;
+}
+
+
+.css-search > svg {
+    overflow: hidden;
+    pointer-events: none;
+    max-width: 100%;
+    max-height: 100%;
+    color: var(--icon-primary-color);
+    fill: var(--icon-secondary-color);
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+}
+.form-control{
+    padding-left: 30px;
+}
+.wrapper-search{
+    position: relative;
+}
+main{
+    margin-bottom: auto;
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+}
+main h1{
+    margin-bottom: 20px;
+}
+
+.wrapper-search--icon-right .css-search{
+    left: inherit;
+    right: 14px;
+}
+.wrapper-search--icon-right {
+    max-width: 250px;
+}
+.control-panel{
+    margin-bottom: 20px;
+}
+.btn-absolute{
+    position: absolute; 
+    right: 0;
+    top: 0;
+}
+main .container{
+    position: relative;
+}
+
+.control-panel .btn-group{
+    background-color: #F4F5F7;
 }
