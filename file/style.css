@@ -1,0 +1,111 @@
+*{
+      box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.wrapper-icons{
+    display: flex;
+    height: 44px;
+    flex-direction: row-reverse;
+}
+.wrapper-icon{
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.icon{
+    height: 40px;
+  width: 40px;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  background-color: var(--ds-surface-overlay,#FFFFFF);
+  border-radius: 50%;
+  box-sizing: content-box;
+  cursor: inherit;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  outline: none;
+  overflow: hidden;
+  position: static;
+  transform: translateZ(0px);
+  transition: transform 200ms ease 0s, opacity 200ms ease 0s;
+  box-shadow: 0 0 0 2px var(--ds-surface-overlay,#FFFFFF);
+  border: none;
+  padding: 0px;
+  font-size: inherit;
+  font-family: inherit;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.fHPRZq {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+.sc-18q7fzx-7{
+    display: inline-block;
+    position: relative;
+    outline: 0px;
+      margin-left: -10px;
+    margin-right: -10px;
+}
+
+.css-1r5q502{
+      height: 40px;
+    width: 40px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    background-color: var(--ds-surface-overlay,#FFFFFF);
+    border-radius: 50%;
+    box-sizing: content-box;
+    cursor: inherit;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    overflow: hidden;
+    position: static;
+    transform: translateZ(0px);
+    transition: transform 200ms ease 0s, opacity 200ms ease 0s;
+    box-shadow: 0 0 0 2px var(--ds-surface-overlay,#FFFFFF);
+    border: none;
+    padding: 0px;
+    font-size: inherit;
+    font-family: inherit;
+    background-size: cover;
+}
+.css-ob4lje{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 100%;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    box-shadow: 0 0 0 2px var(--ds-surface-overlay,#FFFFFF);
+    border-radius: 50%;
+}
