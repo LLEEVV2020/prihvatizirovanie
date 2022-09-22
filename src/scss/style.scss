@@ -125,7 +125,7 @@ main .container{
     border: 0 solid #ced4da;
     border-bottom-width: 2px;
     border-radius: 0;
-    padding-left: 0;
+    /*padding-left: 0;*/
 }
 
 .container-wrapper{
@@ -156,9 +156,18 @@ main .container{
     padding: 7px 0;
     box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(9,30,66,0.25),0 0 1px 1px rgba(9,30,66,0.13));
 }
-.card-job-title{
+.card-name{
     font-size: 14px;
-    margin-bottom: 5px;
+}
+
+.card-btn{
+    margin-top: 5px;
+}
+
+
+.card-job-title{
+    font-size: 12px;    
+    opacity: .7;
 }
 .card-img{
     margin-bottom: 5px;
@@ -178,7 +187,7 @@ main .container{
 
 .wrapper-icons{
     display: flex;
-    height: 44px;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 .wrapper-icon{
@@ -210,4 +219,23 @@ main .container{
   font-size: inherit;
   font-family: inherit;
   background-size: cover;
+}
+
+.dropdown-item span{
+    display: block;
+}
+
+.dropdown-menu {
+    font-size: 15px;
+}
+.dropdown-description{
+    font-size: 13px;
+    opacity: .7;
+}
+
+.label{
+    padding: 0 16px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    font-size: 12px;
 }
