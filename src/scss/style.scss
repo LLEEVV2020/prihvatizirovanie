@@ -68,8 +68,11 @@ button{
 }
 .form-control{
     padding-left: 30px;
+    
 }
+
 .wrapper-search{
+    max-width: 240px;
     position: relative;
 }
 main{
@@ -263,4 +266,139 @@ main .container{
 
 .css-size::after{
     display: none;
+}
+
+// переключатель
+
+.none{
+    display: none;
+}
+
+.switch{
+    cursor: pointer;
+    background-color: #6B778C;
+    color: #FFFFFF; 
+    border-radius: 16px;
+    height: 16px;
+    width: 32px;
+    display: flex;
+    position: relative;
+}
+.switch::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.switch span,
+.switch svg{
+    width: 16px;
+    height: 16px;
+}
+
+.switch svg:first-child{
+    transform: translateX(1px);
+}
+
+.switch svg:last-child{
+    transform: translateX(-1px);
+}
+input:checked + .switch{
+    background-color: #00875A;
+}
+input:checked + .switch::after{
+    right: 2px;
+    left: inherit;
+}
+
+.full-svg g{
+    fill: #6B778C;
+}
+
+.notification-wrapper{
+    display: flex;
+    border: 0 solid #ced4da;
+    border-bottom-width: 2px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+}
+.notification{
+    display: flex;
+    align-items: center;
+}
+.notification span{
+    white-space: nowrap;
+}
+.collapse.show .notification-dropdown{
+    display: block;
+    padding: 10px 15px;
+}
+.notification-title{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: .8;
+    margin-right: 10px;
+}
+.notification > * {
+    padding: 0 5px;
+}
+.notification-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notification-content p{
+    text-align: center;
+}
+.notification-img{
+    width: 198px;
+    height: 240px;
+    margin-bottom: 15px;
+}
+
+.setting-wrapper{
+    display: flex;
+    position: relative; 
+}
+
+.dropdown-wrapper{
+ display: flex;
+ flex-direction: column;
+ padding: 0 16px;
+ position: relative;
+ padding-left: 60px;
+ margin-bottom: 6px;
+}
+
+.dropdown-wrapper .icon{
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+.dropdown-name.account-management{
+    display: flex;
+    justify-content: space-between;
+}
+.decor{
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+}
+
+@media (max-width: 992px){
+    .navbar-collapse > .btn,
+    .wrapper-search{
+        display: block !important;
+        margin: auto !important;
+        margin-bottom: 15px !important;
+    }
+    .setting-wrapper{
+        justify-content: center;
+    }
 }
